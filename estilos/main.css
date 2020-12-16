@@ -1,0 +1,40 @@
+:root {
+  /* estas son las variables de la paleta del color */
+  --color-uno: #05668d;
+  --color-dos: #028090;
+  --color-tres: #00a896;
+  --color-cuatro: #02c39a;
+  --color-cinco: #f0f3bd;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.cabecera {
+  background-color: var(--color-cuatro);
+}
+.box-superior {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px red solid; */
+  color: var(--color-cinco);
+}
+.box-main {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+}
+.box-main .contenido-izquierda {
+  background-color: var(--color-uno);
+  width: 80%;
+}
+.box-main .contenido-derecha {
+  background-color: var(--color-dos);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
