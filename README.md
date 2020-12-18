@@ -1,2 +1,3 @@
 # recordatorios
-estos son mis apuntes del [html css git bash]
+
+estos son mis apuntes del [html css git bash] .
