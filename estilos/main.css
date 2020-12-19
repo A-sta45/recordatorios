@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+body {
+  /* font-family: "Heebo", sans-serif; */
+  color: white;
+}
 :root {
   /* estas son las variables de la paleta del color */
   --color-uno: #05668d;
@@ -14,6 +19,7 @@
 .cabecera {
   background-color: var(--color-cuatro);
 }
+
 .box-superior {
   width: 100%;
   height: 10vh;
@@ -21,7 +27,22 @@
   justify-content: space-between;
   align-items: center;
   /* border: 1px red solid; */
-  color: var(--color-cinco);
+  /* background: rgb(5, 102, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 102, 141, 1) 0%,
+    rgba(2, 128, 144, 1) 35%,
+    rgba(0, 168, 150, 1) 100%
+  ); */
+  background-color: black;
+}
+.titulo-superior {
+  font-family: "Heebo", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  /* color: rgba(255, 101, 12, 0.6); */
+  /* color: white; */
 }
 .box-main {
   width: 100%;
@@ -29,11 +50,18 @@
   display: flex;
 }
 .box-main .contenido-izquierda {
-  background-color: var(--color-uno);
+  /* background-color: var(--color-uno); */
   width: 80%;
+  background: rgb(5, 102, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 102, 141, 1) 0%,
+    rgba(2, 128, 144, 1) 35%,
+    rgba(0, 168, 150, 1) 100%
+  );
 }
 .box-main .contenido-derecha {
-  background-color: var(--color-dos);
+  background-color: var(--color-tres);
   width: 20%;
   display: flex;
   justify-content: center;
