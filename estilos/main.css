@@ -2,6 +2,7 @@
 body {
   /* font-family: "Heebo", sans-serif; */
   color: white;
+  background-color: black;
 }
 :root {
   /* estas son las variables de la paleta del color */
@@ -17,7 +18,11 @@ body {
   box-sizing: border-box;
 }
 .cabecera {
-  background-color: var(--color-cuatro);
+  /* background-color: var(--color-cuatro); */
+}
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .box-superior {
@@ -26,6 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
   /* border: 1px red solid; */
   /* background: rgb(5, 102, 141);
   background: linear-gradient(
@@ -35,6 +41,13 @@ body {
     rgba(0, 168, 150, 1) 100%
   ); */
   background-color: black;
+}
+.box-superior .logo-superior img {
+  width: 60px;
+}
+.box-superior a {
+  text-decoration: none;
+  color: white;
 }
 .titulo-superior {
   font-family: "Heebo", sans-serif;
@@ -46,7 +59,7 @@ body {
 }
 .box-main {
   width: 100%;
-  min-height: 60vh;
+  min-height: 90vh;
   display: flex;
 }
 .box-main .contenido-izquierda {
@@ -65,4 +78,16 @@ body {
   width: 20%;
   display: flex;
   justify-content: center;
+}
+.contenido-derecha ul {
+  list-style: none;
+}
+.contenido-derecha ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  transition: all 0.4s ease-in-out;
+}
+.contenido-derecha ul li a:hover {
+  color: black;
 }
