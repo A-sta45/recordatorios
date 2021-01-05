@@ -45,9 +45,8 @@ body {
 .box-superior .logo-superior img {
   width: 60px;
 }
-.box-superior a {
-  text-decoration: none;
-  color: white;
+.box-superior a img {
+  width: 60px;
 }
 .titulo-superior {
   font-family: "Heebo", sans-serif;
@@ -73,6 +72,12 @@ body {
     rgba(0, 168, 150, 1) 100%
   );
 }
+.box-main .contenido-izquierda img {
+  box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+  /* border-radius: 50%; */
+  border: 5px black outset;
+  margin: 50px 50px;
+}
 .box-main .contenido-derecha {
   background-color: var(--color-tres);
   width: 20%;
@@ -87,6 +92,8 @@ body {
   color: white;
   font-size: 40px;
   transition: all 0.4s ease-in-out;
+  /* box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.75); */
+  text-transform: uppercase;
 }
 .contenido-derecha ul li a:hover {
   color: black;
